@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceso Restringido</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="content">
+        <h1>Este es un Sitio Web para adultos</h1>
+        <p>
+            Este sitio web contiene material restringido a menores de edad, que incluye desnudez y representaciones explícitas de actividad sexual.
+            Al entrar, <strong>afirma que tiene por lo menos 18 años</strong> de edad o la mayoría de edad en su jurisdicción.
+        </p>
+
+        <div class="buttons">
+            <a href="#" class="button" onclick="entrar()">Tengo 18 años o más - Entrar</a>
+            <a href="https://www.google.com" class="button exit">Soy menor de 18 años - Salir</a>
+        </div>
+
+        <div class="footer">
+            <p>
+                Nuestra <a href="#">página de control parental</a> explica cómo bloquear fácilmente el acceso a este sitio.
+            </p>
+            <p>© TuSitioWeb.com, 2024</p>
+        </div>
+    </div>
+
+    <script>
+        function entrar() {
+            window.location.href = "Presentacion.html"; // Redirige a la página principal
+        }
+    </script>
+</body>
+</html>
